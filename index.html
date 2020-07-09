@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScrip primero pasos</title>
+
+    
+</head>
+<body>
+    <form onsubmit="return validar()">
+        <h1>Formulario de registro</h1>
+        <input type="text" name="name" id="nombre" placeholder="Nombre" />
+        <input
+          type="text"
+          name="lastname"
+          id="apellidos"
+          placeholder="Apellido"
+        />
+        <input
+          type="email"
+          name="email"
+          id="correo"
+          placeholder="Correo electrónico"
+        />
+        <input type="text" name="user" id="usuario" placeholder="Usuario" />
+        <input
+          type="password"
+          name="password"
+          id="contrasena"
+          placeholder="Contraseña"
+        />
+        <input
+          type="tel"
+          name="phone"
+          id="telefono"
+          placeholder="Número de teléfono"
+        />
+        <button>Registrar</button>
+      </form>
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
